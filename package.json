@@ -5,7 +5,7 @@
   "description": "Fullstack System Design Quiz Platform with Interactive Visual Diagrams, Auth, and Embedded Database",
   "scripts": {
     "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build",
+    "build": "node scripts/build.js",
     "server": "node server/index.js",
     "client": "cd client && npm run dev"
   },
