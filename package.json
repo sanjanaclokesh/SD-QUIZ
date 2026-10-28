@@ -1,0 +1,21 @@
+{
+  "name": "system-design-quiz-website",
+  "version": "1.0.0",
+  "description": "Fullstack System Design Quiz Platform with Interactive Visual Diagrams, Auth, and Free Embedded SQLite Database",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm.cmd run dev",
+    "build": "cd client && npm.cmd run build"
+  },
+  "keywords": [
+    "system-design",
+    "quiz",
+    "distributed-systems",
+    "fullstack",
+    "sqlite",
+    "react",
+    "express"
+  ],
+  "author": "Sanjana C",
+  "license": "MIT"
+}
